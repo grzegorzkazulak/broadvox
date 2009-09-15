@@ -17,7 +17,8 @@ Gem::Specification.new do |s|
      "README.rdoc"
   ]
   s.files = [
-    "LICENSE",
+    ".gitignore",
+     "LICENSE",
      "README.rdoc",
      "Rakefile",
      "VERSION",
@@ -26,6 +27,16 @@ Gem::Specification.new do |s|
      "lib/broadvox/base.rb",
      "lib/broadvox/errors.rb",
      "lib/broadvox/orders.rb",
+     "lib/broadvox/results/active_request_detail.rb",
+     "lib/broadvox/results/active_request_list.rb",
+     "lib/broadvox/results/did_search_result.rb",
+     "lib/broadvox/results/immid_did_search_result.rb",
+     "lib/broadvox/results/inventory_list.rb",
+     "lib/broadvox/results/inventory_result.rb",
+     "lib/broadvox/results/order_detail_result.rb",
+     "lib/broadvox/results/submit_did_order_result.rb",
+     "lib/broadvox/results/submit_order_result.rb",
+     "lib/broadvox/results/trunk_result.rb",
      "lib/init.rb",
      "test/broadvox_test.rb",
      "test/test_helper.rb"
