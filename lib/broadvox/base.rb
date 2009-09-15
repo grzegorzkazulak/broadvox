@@ -2,9 +2,10 @@ module Broadvox
   module API
     class Base
       
-      def initialize (options = {})
-        driver = SOAP::RPC::Driver.new(URL, NAMESPACE)
+      def initialize(*options, &block)
+        
       end
+      
     end
   end
 end
